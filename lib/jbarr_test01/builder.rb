@@ -8,7 +8,7 @@ end
 
 module Jbarr_test01
 
-  class builder
+  class Builder
     def initialize total:, gratuity:
       @total = total
       @gratuity = gratuity
