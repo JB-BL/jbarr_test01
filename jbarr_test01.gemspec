@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jamesbarr711@gmail.com"]
 
   spec.summary       = %q{JB Learning how to make a Gem.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/JB-BL/jbarr_test01"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
