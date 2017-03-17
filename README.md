@@ -17,12 +17,12 @@ Or install it yourself as:
     $ gem install jbarr_test01
 
 ## Usage
-'''ruby
+```ruby
 jbarr_test01::Builder.new(total: 100, gratuity: '23.5').generate # 123.5
 jbarr_test01::Builder.new(total: 100, gratuity: 'high').generate # 125
 jbarr_test01::Builder.new(total: 100, gratuity: 'LOW').generate # 115.0
 jbarr_test01::Builder.new(total: 100, gratuity: 20).generate # 120.0
-'''
+```
 
 ## Development
 
